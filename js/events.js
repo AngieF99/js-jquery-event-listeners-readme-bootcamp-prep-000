@@ -3,7 +3,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on( 'load', this.attr('tasty'));
+  $('img').on( 'load', img.attr('tasty'));
 }
 
 function pressIt() {
